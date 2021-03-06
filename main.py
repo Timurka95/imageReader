@@ -1,9 +1,9 @@
 import pytesseract
 from PIL import Image, ImageEnhance
 
-pytesseract.pytesseract.tesseract_cmd = 'D:\\Program Files (x86)\\Python3_8_2\\Scripts\\Tesseract\\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Python392\\Scripts\\Tesseract\\tesseract.exe'
 
-img = Image.open('test3.jpg')
+img = Image.open('test2.jpg')
 
 # подрезать изображение, если на картинке не только циферблат
 
